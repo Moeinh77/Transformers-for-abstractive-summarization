@@ -1,6 +1,6 @@
 ### Original Transformer architecture:
 
-<img src= files/transformer.png  width = "693" height = "492" class="center">
+<img src= files/transformer.png  width = "693" height = "492" alt="centered image">
 
 ### Abstractive Summarization with Transformers:
 
