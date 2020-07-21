@@ -1,5 +1,6 @@
 # Transformer-networks-for-abstractive-summarization
 ![](files/transformer.png)
+<img src= files/transformer.png  width = "693" height = "492">
 
 ### Abstractive Summarization with Transformers:
 ![](files/abstractivesum.jpg)
