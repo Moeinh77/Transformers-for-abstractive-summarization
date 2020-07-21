@@ -1,5 +1,5 @@
 # Transformer-networks-for-abstractive-summarization
-Abstractive Text Summarization using Transformer networks implemented with Keras and Tensorflow
+![](files/transformer.png)
 
 ### Abstractive Summarization with Transformers:
 ![](files/abstractivesum.jpg)
