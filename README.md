@@ -12,14 +12,12 @@ Abstractive summarization is the technique of generating a summary of a text fro
 
 https://www.kaggle.com/shashichander009/inshorts-news-data
 
-Inshorts is a news service that provides short summaries of news from around the web. This dataset contains headlines and summary of news items along with its source. This dataset includes 55k news and their summaries that I have used as inputs and labels of the model.
+Inshorts is a news service that provides short summaries of news from around the web. This dataset contains headlines and summary of news items along with its source. This dataset includes 55k news and their summaries that I have used as inputs and labels of the model. You can use bigger datasets for better results and more generalization.
 
 ### Model settings:
 
-The Encoder has for blocks of encoding and each block contains: 
-1- multi-headed attention (mha) layer, dropout layer and layer normalization 2- a feed foward network (ffn), dropout layer and layer normalization
-and the Decoder has the same blocks as the Encoder except that it contains 2 blocks of mha (multi-headed attention layer, dropout layer and layer normalization  ) x 2 and then, the ffn.
-Drop out rate is 0.1 and the batch size is 64. The model is trained on a GTX-1070Ti, each epoch took about 40 seconds.
+The Encoder block: 1- multi-headed attention (mha) layer, dropout layer and layer normalization 2- a feed foward network (ffn), dropout layer and layer normalization
+and the Decoder blobk:  the same blocks as the Encoder except that it contains 2 blocks of mha (multi-headed attention layer, dropout layer and layer normalization  ) x 2 and then, the ffn. Both the Encoder and Decoder have 4 of mentioned blocks. Drop out rate is 0.1 and the batch size is 64. The model is trained on a GTX-1070Ti, each epoch took about 40 seconds.
 
 ### Examples of result:
 
@@ -33,8 +31,6 @@ Drop out rate is 0.1 and the batch size is 64. The model is trained on a GTX-107
 
 **model prediction** : brazil police arrests rio olympics officials
 
-
-You can use bigger datasets for better results and more generalization.
 
 ### Tutorials on the Transformers:
 
