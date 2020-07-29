@@ -19,10 +19,22 @@ Inshorts is a news service that provides short summaries of news from around the
 The Encoder has for blocks of encoding and each block contains: 
 1- multi-headed attention (mha) layer, dropout layer and layer normalization 2- a feed foward network (ffn), dropout layer and layer normalization
 and the Decoder has the same blocks as the Encoder except that it contains 2 blocks of mha (multi-headed attention layer, dropout layer and layer normalization  ) x 2 and then, the ffn.
-Drop out rate is 0.1 and the batch size is 64. The model is trained on a GTX-1070Ti, each epoch took about 100 seconds.
+Drop out rate is 0.1 and the batch size is 64. The model is trained on a GTX-1070Ti, each epoch took about 40 seconds.
 
-### Results:
+### Examples of result:
 
+**News text** : a tenminute video traces  us presidential elections in order to provide a historical insight into the event the video discusses the  elections held less than a year after the assassination of the th us president john f kennedy further detailing the history it describes the  elections wherein barack obama was voted as the th us president
+
+**model prediction** : video explains the us elections
+
+===
+
+**News text** : brazilian police on wednesday arrested the head of the european olympic committees patrick hickey in rio de janeiro over illegal sales of olympic tickets police said hickey and at least six others are accused of illegally passing on tickets for the games to be sold on at extortionate prices hickey was taken to hospital after his arrest
+
+**model prediction** : brazil police arrests rio olympics officials
+
+
+You can use bigger datasets for better results and more generalization.
 
 ### Tutorials on the Transformers:
 
