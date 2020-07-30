@@ -1,4 +1,4 @@
-### Original Transformer architecture:
+### Encoder and Decoder diagram:
 
 <img src= files/transformer.png  width = "693" height = "492" alt="centered image">
 
