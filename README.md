@@ -22,18 +22,24 @@ and the Decoder blobk:  the same blocks as the Encoder except that it contains 2
 ### Examples of result:
 
 **News text** :
-```a tenminute video traces  us presidential elections in order to provide a historical insight into the event the video discusses the  elections held less than a year after the assassination of the th us president john f kennedy further detailing the history it describes the  elections wherein barack obama was voted as the th us president
+```
+a tenminute video traces  us presidential elections in order to provide a historical insight into the event the video discusses the  elections held less than a year after the assassination of the th us president john f kennedy further detailing the history it describes the  elections wherein barack obama was voted as the th us president
 ```
 **model prediction** : 
-```video explains the us elections```
+```
+video explains the us elections
+```
 
 ============
 
 **News text** :
-```brazilian police on wednesday arrested the head of the european olympic committees patrick hickey in rio de janeiro over illegal sales of olympic tickets police said hickey and at least six others are accused of illegally passing on tickets for the games to be sold on at extortionate prices hickey was taken to hospital after his arrest
+```
+brazilian police on wednesday arrested the head of the european olympic committees patrick hickey in rio de janeiro over illegal sales of olympic tickets police said hickey and at least six others are accused of illegally passing on tickets for the games to be sold on at extortionate prices hickey was taken to hospital after his arrest
 ```
 **model prediction** :
-```brazil police arrests rio olympics officials```
+```
+brazil police arrests rio olympics officials
+```
 
 
 ### TODO:
