@@ -32,6 +32,10 @@ and the Decoder blobk:  the same blocks as the Encoder except that it contains 2
 **model prediction** : brazil police arrests rio olympics officials
 '''
 
+### TODO:
+* Use ROUGE metric
+* Use a pretariend model 
+
 ### Tutorials on the Transformers:
 
 * https://towardsdatascience.com/transformers-explained-65454c0f3fa7
