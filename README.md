@@ -49,6 +49,7 @@ brazil police arrests rio olympics officials
 
 
 ### TODO:
+* Try label smoothing (the original paper has)
 * Use ROUGE metric
 * Use a pretariend model 
 
